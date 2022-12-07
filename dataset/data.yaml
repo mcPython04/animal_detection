@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['-', 'Cat', 'Dog']
+
+roboflow:
+  workspace: meng-chen-rcxi3
+  project: animal-detection-y972e
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/meng-chen-rcxi3/animal-detection-y972e/dataset/1
